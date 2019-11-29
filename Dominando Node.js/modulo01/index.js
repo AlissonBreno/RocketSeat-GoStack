@@ -48,7 +48,7 @@ function checkUserInArray(req, res, next) {
 
 server.get('/users', (req, res) => {
   return res.json(users);
-})
+});
 
 server.get('/users/:index', checkUserInArray, (req, res) => {
   return res.json(req.user);
