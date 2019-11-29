@@ -6,8 +6,8 @@ server.use(express.json());
 
 //const projects = ['Esses', 'São', 'Os Projetos'];
 const projects = [{
-  titlle: 'titulo 1' + 'titulo 2',
-  tasks: 'fazer tal coisa' + 'fazer outra coisa'
+  titlle: 'titulo 1',
+  tasks: 'fazer tal coisa'
 }];
 
 //Lista todos os projetos do sistema
